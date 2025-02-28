@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safari Beton</title>
+ <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="/Images/logo.png" />
+
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Safari Beton" />
+  <meta property="og:description" content="Safari Beton is a leading supplier of premium precast concrete elements, dedicated to providing innovative solutions for construction projects. Our commitment..." />
+  <meta property="og:url" content="https://www.safaribeton.co.za" />
+  <meta property="og:image" content="https://www.safaribeton.co.za/Images/logo.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Safari Beton" />
+  <meta name="twitter:description" content="Safari Beton is a leading supplier of premium precast concrete elements, dedicated to providing innovative solutions for construction projects. Our commitment..." />
+  <meta name="twitter:image" content="https://www.safaribeton.co.za/Images/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#000000">
+
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="Images/kubu.jpg" alt="kubu Logo" />
+      <h1>Kubu Concrete</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="home">
+    <div class="overlay">
+    </div>
+    <img src="Images/Trunk.jpg" alt="Precast Concrete" class="main-image" />
+  </section>
+  
+  <section id="projects">
+    <h2 class="section-header">Our Projects</h2>
+    <div class="underline"></div>
+
+    <div class="projects-container">
+        <!-- Main Project Display -->
+        <div class="project-display">
+            <img id="mainImage" src="Images/Kantoor.jpg" alt="Main Project Image">
+            <div class="project-description">
+                <h3 id="projectTitle">2 Bedroom with Kitchen and Dining Area</h3>
+<p id="projectDesc">This project features a modern 2-bedroom home designed with a spacious kitchen and dining area, ensuring comfort and functionality for everyday living.</p>
+
+            </div>
+        </div>
+
+        <!-- Thumbnails for selection -->
+        <div class="thumbnail-container">
+            <img class="thumbnail" src="Images/Kantoor.jpg" alt="Project 1" onclick="changeProject('Images/Kantoor.jpg', '2 Bedroom with Kitchen and Dining Area', 'This project features a modern 2-bedroom home designed with a spacious kitchen and dining area, ensuring comfort and functionality for everyday living..')">
+            <img class="thumbnail" src="Images/kantoor2.jpg" alt="Project 2" onclick="changeProject('Images/kantoor2.jpg', '2 Bedroom 4.5m x 4.5m', 'A well-designed 2-bedroom unit measuring 4.5m x 4.5m, offering a comfortable living space with a modern layout. Built with durable materials to ensure longevity and style..')">
+            <img class="thumbnail" src="Images/huis.jpg" alt="Project 3" onclick="changeProject('Images/huis.jpg', '2 Bedroom with living space', 'A thoughtfully designed 2-bedroom home featuring a spacious living area, built with durable precast concrete for energy efficiency, comfort, and modern aesthetics')">
+            <img class="thumbnail" src="Images/huis2.jpg" alt="Project 4" onclick="changeProject('Images/huis2.jpg', 'Precast Wall 1.8m-1.2m', 'A high-quality precast wall ranging from 1.2m to 1.8m in height, designed for enhanced security, durability, and privacy. Built with reinforced concrete for long-lasting protection and modern aesthetics.')">
+            <img class="thumbnail" src="Images/huis3.jpg" alt="Project 5" onclick="changeProject('Images/huis3.jpg', '1 Bedroom 4,5mx4.5m', 'A compact and efficient 4.5m x 4.5m space, designed for use as a small office. Featuring a modern layout with durable precast concrete construction, ensuring a professional and comfortable working environment.')">
+        </div>
+
+    </div>
+</section>
+
+  <section id="shop">
+    <h2 class="section-header">Our Products</h2>
+    <div class="underline"></div>
+    <div class="shop-container">
+      <!-- Shop item: Precast Fence -->
+      <div class="shop-item">
+        <div class="carousel">
+          <img src="Images/Precast-fence-1.jpg" alt="Precast Fence Image 1" />
+          <img src="Images/Precast-fence-2.jpg" alt="Precast Fence Image 2" class="hidden" />
+          <img src="Images/Precast-fence-3.jpg" alt="Precast Fence Image 3" class="hidden" />
+          <img src="Images/Precast-fence-4.jpg" alt="Precast Fence Image 4" class="hidden" />
+          <img src="Images/Precast-fence-5.jpg" alt="Precast Fence Image 5" class="hidden" />
+          <img src="Images/Precast-fence-6.jpg" alt="Precast Fence Image 6" class="hidden" />
+          <img src="Images/Precast-fence-7.jpg" alt="Precast Fence Image 7" class="hidden" />
+        </div>
+        <h3>Precast Fence</h3>
+        <p>Palisade Dimensions: 2.4m Height</p>
+        <p>Concrete Poles: 4m, 3m, 2.4m, 1.8m</p>
+      </div>
+
+      <!-- Shop item: Precast Slabs -->
+      <div class="shop-item">
+        <div class="carousel">
+          <img src="Images/Precast-bricks-1.jpg" alt="Precast Bricks Image 1" />
+          <img src="Images/Precast-bricks-2.jpg" alt="Precast Bricks Image 2" class="hidden" />
+          <img src="Images/Precast-bricks-3.jpg" alt="Precast Bricks Image 3" class="hidden" />
+          <img src="Images/Precast-bricks-4.jpg" alt="Precast Bricks Image 4" class="hidden" />
+          <img src="Images/Precast-bricks-5.jpg" alt="Precast Bricks Image 5" class="hidden" />
+          <img src="Images/Precast-bricks-6.jpg" alt="Precast Bricks Image 6" class="hidden" />
+        </div>
+        <h3>Precast Slabs</h3>
+        <p>Dimensions: 1.5m x 300mm</p>
+      </div>
+
+      <!-- Shop item: Precast Lintels -->
+      <div class="shop-item">
+        <div class="carousel">
+          <img src="Images/Precast-lintels-1.jpg" alt="Precast Lintels Image 1" />
+          <img src="Images/Precast-lintels-2.jpg" alt="Precast Lintels Image 2" class="hidden" />
+          <img src="Images/Precast-lintels-4.jpg" alt="Precast Lintels Image 4" class="hidden" />
+        </div>
+        <h3>Precast Lintels</h3>
+        <p>Dimensions: 900mm - 6m</p>
+        <p>Maxi and Stock Lintels</p>
+      </div>
+
+      <!-- Shop item: Precast Retaining Walls -->
+      <div class="shop-item">
+        <div class="carousel">
+          <img src="Images/Precast-retaining-walls-1.jpg" alt="Precast Retaining Walls Image 1" />
+          <img src="Images/Precast-retaining-walls-2.jpg" alt="Precast Retaining Walls Image 2" class="hidden" />
+          <img src="Images/Precast-retaining-walls-3.jpg" alt="Precast Retaining Walls Image 3" class="hidden" />
+          <img src="Images/Precast-retaining-walls-4.jpg" alt="Precast Retaining Walls Image 4" class="hidden" />
+          <img src="Images/Precast-retaining-walls-5.jpg" alt="Precast Retaining Walls Image 5" class="hidden" />
+        </div>
+        <h3>Retaining Walls and Road Crubs</h3>
+        <p>Road Crub Dimensions: 1m x 100mm</p>
+      </div>
+
+      <!-- Shop item: Precast Tables -->
+      <div class="shop-item">
+        <div class="carousel">
+          <img src="Images/Precast-table-1.jpg" alt="Precast Table Image 1" />
+          <img src="Images/Precast-table-2.jpg" alt="Precast Table Image 2" class="hidden" />
+          <img src="Images/Precast-table-3.jpg" alt="Precast Table Image 3" class="hidden" />
+          <img src="Images/Precast-table-4.jpg" alt="Precast Table Image 4" class="hidden" />
+          <img src="Images/Precast-table-5.jpg" alt="Precast Table Image 5" class="hidden" />
+          <img src="Images/Precast-table-6.jpg" alt="Precast Table Image 6" class="hidden" />
+        </div>
+        <h3>Precast Tables</h3>
+        <p>Round Tables Dimensions: 1m</p>
+        <p>Square Tables Dimensions: 1m x 1m, 1m x 2m</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+      <h2 class="section-header">Our Services</h2>
+      <div class="underline"></div>
+    <div class="services-container">
+      <div class="blog-card">
+        <div class="meta">
+          <div class="photo" style="background-image: url('Images/skyphoto.jpg');"></div>
+        </div>
+        <div class="description">
+          <h1>Timely Delivery &amp; Installation</h1>
+          <p>
+            We prioritize efficiency and reliability in every project, ensuring that our precast concrete products are delivered and installed on schedule.
+            With a dedicated team and streamlined logistics, we help keep your construction process smooth and hassle-free.
+          </p>
+          <p class="read-more">
+            <a href="#">Learn More</a>
+          </p>
+        </div>
+      </div>
+      
+      <div class="blog-card alt">
+        <div class="meta">
+          <div class="photo" style="background-image: url('Images/helmetphoto.jpg');"></div>
+        </div>
+        <div class="description">
+          <h1>Custom Design Solutions</h1>
+          <p>
+            Every project is unique, and we embrace that by offering tailor-made precast solutions to match your vision. Our experts collaborate with architects and
+            contractors to craft designs that seamlessly integrate with your overall aesthetic and functional requirements.
+          </p>
+          <p class="read-more">
+            <a href="#">Learn More</a>
+          </p>
+        </div>
+      </div>
+      
+      <div class="blog-card alt">
+        <div class="meta">
+          <div class="photo" style="background-image: url('Images/Drawings1.jpg');"></div>
+        </div>
+        <div class="description">
+          <h1>High-Quality Precast Products</h1>
+          <p>
+            Our commitment to excellence is reflected in our durable and precisely crafted precast concrete products. Whether you need standard components or
+            custom-made elements, we deliver premium solutions that enhance the strength and beauty of your construction projects.
+          </p>
+          <p class="read-more">
+            <a href="#">Learn More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="about">
+    <section id="about">
+      <h2 class="section-header">Our Products</h2>
+      <div class="underline"></div>
+  
+    <div class="about-container">
+      <!-- Slabs Card -->
+      <div class="about-card">
+        <h3>Slabs</h3>
+        <ul>
+          <li>Plains - <strong>R53</strong></li>
+          <li>Large Bricks - <strong>R53</strong></li>
+          <li>Three Louvre - <strong>R53</strong></li>
+          <li>Sand Stones - <strong>R63</strong></li>
+        </ul>
+        <button class="cta-button">Don’t see the price of product you want?</button>
+        <p class="footnote">WhatsApp us: 071 896 7494</p>
+      </div>
+  
+      <!-- Poles Card -->
+      <div class="about-card">
+        <h3>Poles</h3>
+        <ul>
+          <li>3M C Poles Plain - <strong>R165</strong></li>
+          <li>3M S Poles Plain - <strong>R160</strong></li>
+          <li>2.4M C Poles Plain - <strong>R155</strong></li>
+          <li>2.4M S Poles Plain - <strong>R150</strong></li>
+          <li>3M C Poles Sand Stone - <strong>R175</strong></li>
+          <li>3M S Poles Sand Stone - <strong>R170</strong></li>
+        </ul>
+        <button class="cta-button">Don’t see the price of product you want?</button>
+        <p class="footnote">WhatsApp us: 071 896 7494</p>
+      </div>
+  
+      <!-- Other Products Card -->
+      <div class="about-card">
+        <h3>Other Products</h3>
+        <ul>
+          <li>Curbs - <strong>R70</strong></li>
+          <li>Retaining Walls - <strong>R55</strong></li>
+          <li>Dubbel Slab (Wall Extension) - <strong>R120</strong></li>
+          <li>Flatstones 600x600 - <strong>R90</strong></li>
+          <li>Flatstones 600x400 - <strong>R70</strong></li>
+          <li>Pyramids - <strong>R750</strong></li>
+          <li>Braaiers - <strong>R3300</strong></li>
+        </ul>
+        <button class="cta-button">Don’t see the price of product you want?</button>
+        <p class="footnote">WhatsApp us: 071 896 7494</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2 class="section-header">Contact Us</h2>
+    <div class="underline"></div>
+    <div class="contact-container">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14389.216096056867!2d27.94556668402223!3d-25.62803334433903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebfd3648b6abcdf%3A0xb0038e16a3a5610b!2sKubu%20Concrete!5e0!3m2!1sen!2sza!4v1739011291708!5m2!1sen!2sza"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="contact-form">
+        <h3>Get in Touch</h3>
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" name="user_name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="text" id="surname" name="user_surname" placeholder="Your Surname" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="user_email" placeholder="example@gmail.com" required />
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="4" placeholder="Your message here..." required></textarea>
+          </div>
+          <button type="submit" class="pulse-button">Send Message</button>
+          <div class="contact-details">
+            <p class="office-hours">Office Hours: Mon - Fri 7 AM to 4 PM,</p>
+            <p class="office-number">Office Number: 071 896 7494</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="Images/bgkubu.png" alt="Company Logo" />
+        </div>
+        <div class="footer-title">Kubu Concrete</div>
+      </div>
+      <div class="footer-country">South Africa</div>
+    </div>
+    <div class="footer-bottom-container">
+      <span class="footer-text">© 2025 Kubu Concrete. All Rights Reserved.</span>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Include external JS (all inline JS is moved to script.js for better maintainability) -->
+  <script src="js/scripts.js" defer></script>
+</body>
+</html>

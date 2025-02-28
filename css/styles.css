@@ -722,6 +722,25 @@ transform: translateY(-100%);
 /* -------------------- */
 /*    Pulse Button      */
 /* -------------------- */
+.popup-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1em 2em;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  z-index: 10000;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+.popup-message.fade-out {
+  opacity: 0;
+}
+
 .pulse-button {
   background-color: #007bff;
   color: white;

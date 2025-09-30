@@ -116,7 +116,7 @@ function changeProject(imageSrc, title, description) {
         submitButton.textContent = "Sending...";
 
         emailjs
-          emailjs.sendForm("service_9d3cpjw", "template_jqrv3n2", this)
+          emailjs.sendForm("service_3wy9vlo", "template_jqrv3n2", this)
           .then((response) => {
             console.log("SUCCESS!", response);
             showPopup("✅ Your message has been sent successfully!", true);
